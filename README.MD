@@ -1,1 +1,2 @@
 # Zaidan-Naufal
+Nozomu investment
