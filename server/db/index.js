@@ -26,5 +26,19 @@ db.all = () => {
     });
 };
 
-
+db.register = (name, username) => {
+    /*MySQL query untuk menambahkan user baru ke dalam tabel userdata */
+    return new Promise((resolve, reject) => {
+      pool.query(
+        `INSERT INTO userdata(name, username) VALUES(?, ?)`,
+        [name, username],
+        (err, result) => {
+          if (err) {
+            return reject(err);
+          }
+          return resolve(result);
+        }
+      );
+    });
+  };
   module.exports = db;
