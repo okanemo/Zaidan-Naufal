@@ -9,5 +9,5 @@
 3. install all dependencies with 
 `npm install`
 
-4.start the server in port 3000 with 
+4. start the server in port 3000 with 
 `npm run dev`
