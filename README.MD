@@ -1,6 +1,6 @@
 # Nozomu investment
 
-##How To Build 
+## How To Build 
 1. Import the nozomu.sql file in the mysql_db directory into mysql database.
 `mysql -u <yourpreferedusername> -p <yourprefereduserdatabase> < nozomu.sql` 
 
